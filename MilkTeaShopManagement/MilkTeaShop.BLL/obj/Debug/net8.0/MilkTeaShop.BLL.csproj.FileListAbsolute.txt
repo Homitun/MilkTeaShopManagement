@@ -1,0 +1,15 @@
+D:\FPTSubject\PRN212\MilkTeaShopManagement\MilkTeaShopManagement\MilkTeaShop.BLL\bin\Debug\net8.0\MilkTeaShop.BLL.deps.json
+D:\FPTSubject\PRN212\MilkTeaShopManagement\MilkTeaShopManagement\MilkTeaShop.BLL\bin\Debug\net8.0\MilkTeaShop.BLL.dll
+D:\FPTSubject\PRN212\MilkTeaShopManagement\MilkTeaShopManagement\MilkTeaShop.BLL\bin\Debug\net8.0\MilkTeaShop.BLL.pdb
+D:\FPTSubject\PRN212\MilkTeaShopManagement\MilkTeaShopManagement\MilkTeaShop.BLL\bin\Debug\net8.0\MilkTeaShop.DAL.dll
+D:\FPTSubject\PRN212\MilkTeaShopManagement\MilkTeaShopManagement\MilkTeaShop.BLL\bin\Debug\net8.0\MilkTeaShop.DAL.pdb
+D:\FPTSubject\PRN212\MilkTeaShopManagement\MilkTeaShopManagement\MilkTeaShop.BLL\obj\Debug\net8.0\MilkTeaShop.BLL.csproj.AssemblyReference.cache
+D:\FPTSubject\PRN212\MilkTeaShopManagement\MilkTeaShopManagement\MilkTeaShop.BLL\obj\Debug\net8.0\MilkTeaShop.BLL.GeneratedMSBuildEditorConfig.editorconfig
+D:\FPTSubject\PRN212\MilkTeaShopManagement\MilkTeaShopManagement\MilkTeaShop.BLL\obj\Debug\net8.0\MilkTeaShop.BLL.AssemblyInfoInputs.cache
+D:\FPTSubject\PRN212\MilkTeaShopManagement\MilkTeaShopManagement\MilkTeaShop.BLL\obj\Debug\net8.0\MilkTeaShop.BLL.AssemblyInfo.cs
+D:\FPTSubject\PRN212\MilkTeaShopManagement\MilkTeaShopManagement\MilkTeaShop.BLL\obj\Debug\net8.0\MilkTeaShop.BLL.csproj.CoreCompileInputs.cache
+D:\FPTSubject\PRN212\MilkTeaShopManagement\MilkTeaShopManagement\MilkTeaShop.BLL\obj\Debug\net8.0\MilkTeaShop.BLL.csproj.CopyComplete
+D:\FPTSubject\PRN212\MilkTeaShopManagement\MilkTeaShopManagement\MilkTeaShop.BLL\obj\Debug\net8.0\MilkTeaShop.BLL.dll
+D:\FPTSubject\PRN212\MilkTeaShopManagement\MilkTeaShopManagement\MilkTeaShop.BLL\obj\Debug\net8.0\refint\MilkTeaShop.BLL.dll
+D:\FPTSubject\PRN212\MilkTeaShopManagement\MilkTeaShopManagement\MilkTeaShop.BLL\obj\Debug\net8.0\MilkTeaShop.BLL.pdb
+D:\FPTSubject\PRN212\MilkTeaShopManagement\MilkTeaShopManagement\MilkTeaShop.BLL\obj\Debug\net8.0\ref\MilkTeaShop.BLL.dll
