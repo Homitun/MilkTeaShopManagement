@@ -3284,23 +3284,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Henry Hoang\\.nuget\\packages\\": {},
+    "C:\\Users\\ASUS\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\FPTSubject\\PRN212\\MilkTeaShopManagement\\MilkTeaShopManagement\\MilkTeaShopManagement\\MilkTeaShopManagement.csproj",
+      "projectUniqueName": "C:\\Users\\ASUS\\Desktop\\MilkTeaShopManagement\\MilkTeaShopManagement\\MilkTeaShopManagement\\MilkTeaShopManagement.csproj",
       "projectName": "MilkTeaShopManagement",
-      "projectPath": "D:\\FPTSubject\\PRN212\\MilkTeaShopManagement\\MilkTeaShopManagement\\MilkTeaShopManagement\\MilkTeaShopManagement.csproj",
-      "packagesPath": "C:\\Users\\Henry Hoang\\.nuget\\packages\\",
-      "outputPath": "D:\\FPTSubject\\PRN212\\MilkTeaShopManagement\\MilkTeaShopManagement\\MilkTeaShopManagement\\obj\\",
+      "projectPath": "C:\\Users\\ASUS\\Desktop\\MilkTeaShopManagement\\MilkTeaShopManagement\\MilkTeaShopManagement\\MilkTeaShopManagement.csproj",
+      "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\ASUS\\Desktop\\MilkTeaShopManagement\\MilkTeaShopManagement\\MilkTeaShopManagement\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\Henry Hoang\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -3316,8 +3316,8 @@
         "net8.0-windows7.0": {
           "targetAlias": "net8.0-windows",
           "projectReferences": {
-            "D:\\FPTSubject\\PRN212\\MilkTeaShopManagement\\MilkTeaShopManagement\\MilkTeaShop.BLL\\MilkTeaShop.BLL.csproj": {
-              "projectPath": "D:\\FPTSubject\\PRN212\\MilkTeaShopManagement\\MilkTeaShopManagement\\MilkTeaShop.BLL\\MilkTeaShop.BLL.csproj"
+            "C:\\Users\\ASUS\\Desktop\\MilkTeaShopManagement\\MilkTeaShopManagement\\MilkTeaShop.BLL\\MilkTeaShop.BLL.csproj": {
+              "projectPath": "C:\\Users\\ASUS\\Desktop\\MilkTeaShopManagement\\MilkTeaShopManagement\\MilkTeaShop.BLL\\MilkTeaShop.BLL.csproj"
             }
           }
         }
@@ -3326,6 +3326,11 @@
         "warnAsError": [
           "NU1605"
         ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -3350,7 +3355,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.304/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
