@@ -7,9 +7,9 @@
         mc:Ignorable="d"
         Title="AccountManageWindow" Height="450" Width="800" WindowStartupLocation="CenterScreen" Background="Red">
     <Grid>
-        <Rectangle HorizontalAlignment="Left" Height="344" Margin="28,15,0,0" Stroke="Black" VerticalAlignment="Top" Width="688"
+        <Rectangle HorizontalAlignment="Left" Height="388" Margin="28,15,0,0" Stroke="Black" VerticalAlignment="Top" Width="688"
                    Fill="#7cfc00" RadiusX="20" RadiusY="20"/>
-        <Label Content="Account Management" HorizontalAlignment="Left" Height="54" Margin="65,57,0,0" VerticalAlignment="Top" Width="583" FontWeight="Bold" FontSize="24" Foreground="#FFF7002D"/>
+        <Label Content="Account Management" HorizontalAlignment="Left" Height="54" Margin="73,35,0,0" VerticalAlignment="Top" Width="583" FontWeight="Bold" FontSize="24" Foreground="#FFF7002D"/>
         <DataGrid HorizontalAlignment="Left" Height="198" Margin="73,161,0,0" VerticalAlignment="Top" Width="339" AutoGenerateColumns="False">
             <DataGrid.Columns>
                 <DataGridTextColumn Header="User Name" Width="80" Binding="{Binding userName}"/>
@@ -19,11 +19,12 @@
 
             </DataGrid.Columns>
         </DataGrid>
-        <Button Content="Search" HorizontalAlignment="Left" Height="30" Margin="452,116,0,0" VerticalAlignment="Top" Width="152"/>
-        <Button Content="Create" HorizontalAlignment="Left" Height="30" Margin="452,161,0,0" VerticalAlignment="Top" Width="152"/>
-        <Button Content="Update" HorizontalAlignment="Left" Height="30" Margin="452,217,0,0" VerticalAlignment="Top" Width="152" RenderTransformOrigin="0.504,0.968"/>
-        <Button Content="Eixt" HorizontalAlignment="Left" Height="30" Margin="452,329,0,0" VerticalAlignment="Top" Width="152"/>
-        <Button Content="Delete" HorizontalAlignment="Left" Height="30" Margin="452,277,0,0" VerticalAlignment="Top" Width="152"/>
+        <Button Content="Search" HorizontalAlignment="Left" Height="30" Margin="452,116,0,0" VerticalAlignment="Top" Width="152" Click="Button_Click"/>
+        <Button Content="Create" HorizontalAlignment="Left" Height="30" Margin="452,161,0,0" VerticalAlignment="Top" Width="152" Click="Button_Click_1"/>
+        <Button Content="Update" HorizontalAlignment="Left" Height="30" Margin="452,217,0,0" VerticalAlignment="Top" Width="152" RenderTransformOrigin="0.504,0.968" Click="Button_Click_2"/>
+        <Button Content="Eixt" HorizontalAlignment="Left" Height="30" Margin="452,329,0,0" VerticalAlignment="Top" Width="152" Click="Button_Click_4"/>
+        <Button Content="Delete" HorizontalAlignment="Left" Height="30" Margin="452,277,0,0" VerticalAlignment="Top" Width="152" 
+                Click="Button_Click_3"/>
         <TextBox HorizontalAlignment="Left" Height="30" Margin="73,116,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="339"/>
 
 
