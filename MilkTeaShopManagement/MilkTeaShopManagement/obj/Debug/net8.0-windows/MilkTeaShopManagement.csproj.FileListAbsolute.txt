@@ -144,14 +144,12 @@ C:\Users\ASUS\Desktop\MilkTeaShopManagement\MilkTeaShopManagement\MilkTeaShopMan
 C:\Users\ASUS\Desktop\MilkTeaShopManagement\MilkTeaShopManagement\MilkTeaShopManagement\bin\Debug\net8.0-windows\MilkTeaShop.BLL.pdb
 C:\Users\ASUS\Desktop\MilkTeaShopManagement\MilkTeaShopManagement\MilkTeaShopManagement\bin\Debug\net8.0-windows\MilkTeaShop.DAL.pdb
 C:\Users\ASUS\Desktop\MilkTeaShopManagement\MilkTeaShopManagement\MilkTeaShopManagement\obj\Debug\net8.0-windows\MilkTeaShopManagement.csproj.AssemblyReference.cache
-C:\Users\ASUS\Desktop\MilkTeaShopManagement\MilkTeaShopManagement\MilkTeaShopManagement\obj\Debug\net8.0-windows\AccountManageWindow.g.cs
 C:\Users\ASUS\Desktop\MilkTeaShopManagement\MilkTeaShopManagement\MilkTeaShopManagement\obj\Debug\net8.0-windows\LoginWindow.g.cs
 C:\Users\ASUS\Desktop\MilkTeaShopManagement\MilkTeaShopManagement\MilkTeaShopManagement\obj\Debug\net8.0-windows\MainWindow.g.cs
 C:\Users\ASUS\Desktop\MilkTeaShopManagement\MilkTeaShopManagement\MilkTeaShopManagement\obj\Debug\net8.0-windows\TableManagerWindow.g.cs
 C:\Users\ASUS\Desktop\MilkTeaShopManagement\MilkTeaShopManagement\MilkTeaShopManagement\obj\Debug\net8.0-windows\App.g.cs
 C:\Users\ASUS\Desktop\MilkTeaShopManagement\MilkTeaShopManagement\MilkTeaShopManagement\obj\Debug\net8.0-windows\MilkTeaShopManagement_MarkupCompile.cache
 C:\Users\ASUS\Desktop\MilkTeaShopManagement\MilkTeaShopManagement\MilkTeaShopManagement\obj\Debug\net8.0-windows\MilkTeaShopManagement_MarkupCompile.lref
-C:\Users\ASUS\Desktop\MilkTeaShopManagement\MilkTeaShopManagement\MilkTeaShopManagement\obj\Debug\net8.0-windows\AccountManageWindow.baml
 C:\Users\ASUS\Desktop\MilkTeaShopManagement\MilkTeaShopManagement\MilkTeaShopManagement\obj\Debug\net8.0-windows\LoginWindow.baml
 C:\Users\ASUS\Desktop\MilkTeaShopManagement\MilkTeaShopManagement\MilkTeaShopManagement\obj\Debug\net8.0-windows\MainWindow.baml
 C:\Users\ASUS\Desktop\MilkTeaShopManagement\MilkTeaShopManagement\MilkTeaShopManagement\obj\Debug\net8.0-windows\TableManagerWindow.baml
@@ -167,3 +165,5 @@ C:\Users\ASUS\Desktop\MilkTeaShopManagement\MilkTeaShopManagement\MilkTeaShopMan
 C:\Users\ASUS\Desktop\MilkTeaShopManagement\MilkTeaShopManagement\MilkTeaShopManagement\obj\Debug\net8.0-windows\MilkTeaShopManagement.pdb
 C:\Users\ASUS\Desktop\MilkTeaShopManagement\MilkTeaShopManagement\MilkTeaShopManagement\obj\Debug\net8.0-windows\MilkTeaShopManagement.genruntimeconfig.cache
 C:\Users\ASUS\Desktop\MilkTeaShopManagement\MilkTeaShopManagement\MilkTeaShopManagement\obj\Debug\net8.0-windows\ref\MilkTeaShopManagement.dll
+C:\Users\ASUS\Desktop\MilkTeaShopManagement\MilkTeaShopManagement\MilkTeaShopManagement\obj\Debug\net8.0-windows\AccountManagerWindow.g.cs
+C:\Users\ASUS\Desktop\MilkTeaShopManagement\MilkTeaShopManagement\MilkTeaShopManagement\obj\Debug\net8.0-windows\AccountManagerWindow.baml

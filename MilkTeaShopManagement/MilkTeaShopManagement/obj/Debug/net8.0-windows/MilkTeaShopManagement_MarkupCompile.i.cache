@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP
 C:\Users\ASUS\Desktop\MilkTeaShopManagement\MilkTeaShopManagement\MilkTeaShopManagement\App.xaml
-4-1871487503
+4747355100
 
-9-869975198
+9-1243960882
 246-1022874651
-AccountManageWindow.xaml;LoginWindow.xaml;MainWindow.xaml;TableManagerWindow.xaml;
+AccountManagerWindow.xaml;LoginWindow.xaml;MainWindow.xaml;TableManagerWindow.xaml;
 
-True
+False
 
