@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "kqdKAbjXbXxgKyP5wJBRvxgozg89/y1nz4qWMsw5I4D4w/eP40G/dTntLTvtOxpoHGFcFMaAVQWt7V42e0ksIA==",
+  "dgSpecHash": "ux6Z9p4YSX9iLdEGI3Dd2uOR5OhXv21yD/Ftv/2RJY8zI3NwipOTUYvaBV3/LedUJi8j7BGnpDKt6Ial3JfoOg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ASUS\\Desktop\\MilkTeaShopManagement\\MilkTeaShopManagement\\MilkTeaShop.BLL\\MilkTeaShop.BLL.csproj",
+  "projectFilePath": "C:\\Users\\ASUS\\Desktop\\PRN221\\MilkTeaShopManagement\\MilkTeaShopManagement\\MilkTeaShop.BLL\\MilkTeaShop.BLL.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ASUS\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\ASUS\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",

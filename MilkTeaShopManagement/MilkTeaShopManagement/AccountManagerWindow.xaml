@@ -6,21 +6,21 @@
         xmlns:local="clr-namespace:MilkTeaShopManagement"
         mc:Ignorable="d"
         Title="AccountManagerWindow" Height="450" Width="800" 
-        WindowStartupLocation="CenterScreen" Background="Red">
+        WindowStartupLocation="CenterScreen" Background="Red" Loaded="Window_Loaded">
     <Grid>
         <Rectangle HorizontalAlignment="Left" Height="346" Margin="51,33,0,0" Stroke="Black" VerticalAlignment="Top" Width="667"
                    Fill="#7cfc00" RadiusX="20" RadiusY="20"/>
-        <DataGrid HorizontalAlignment="Left" Height="200" Margin="81,141,0,0" VerticalAlignment="Top" Width="355" AutoGenerateColumns="False">
+        <DataGrid x:Name="AccountGrid" HorizontalAlignment="Left" Height="200" Margin="81,141,0,0" VerticalAlignment="Top" Width="343" AutoGenerateColumns="False" TabIndex="4">
             <DataGrid.Columns>
-                <DataGridTextColumn Header="User Name" Width="80" Binding="{Binding userName}"/>
-                <DataGridTextColumn Header="Display Name" Width="100" Binding="{Binding displayName}"/>
-                <DataGridTextColumn Header="Password" Width="80" Binding="{Binding password}"/>
-                <DataGridTextColumn Header="Type" Width="40" Binding="{Binding type}"/>
+                <DataGridTextColumn Header="User Name" Width="100" Binding="{Binding UserName}"/>
+                <DataGridTextColumn Header="Display Name" Width="120" Binding="{Binding DisplayName}"/>
+                <DataGridTextColumn Header="Password" Width="80" Binding="{Binding PassWord}"/>
+                <DataGridTextColumn Header="Type" Width="40" Binding="{Binding Type}"/>
             </DataGrid.Columns>
 
         </DataGrid>
         <Button Content="Update" HorizontalAlignment="Left" Height="34" Margin="502,136,0,0" VerticalAlignment="Top" Width="132"/>
-        <Button Content="Create" HorizontalAlignment="Left" Height="34" Margin="502,183,0,0" VerticalAlignment="Top" Width="132"/>
+        <Button Content="Create" HorizontalAlignment="Left" Height="34" Margin="502,183,0,0" VerticalAlignment="Top" Width="132" Click="Button_Click"/>
         <Button Content="Delete" HorizontalAlignment="Left" Height="34" Margin="502,241,0,0" VerticalAlignment="Top" Width="132"/>
         <Button Content="Quit" HorizontalAlignment="Left" Height="34" Margin="502,293,0,0" VerticalAlignment="Top" Width="132"/>
         <Label Content="Account Management" HorizontalAlignment="Left" Height="47" Margin="176,51,0,0" Width="528" VerticalAlignment="Top" FontFamily="Arial Black" FontWeight="Bold" FontSize="22" Foreground="#FFFA0606"/>

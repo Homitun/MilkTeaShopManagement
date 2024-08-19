@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MilkTeaShop.DAL")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0a796de4e03dd90349d4185d1a929ee8e77b4c06")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c8ff2b330512a4b2f381d0e991c8d0d4565b6274")]
 [assembly: System.Reflection.AssemblyProductAttribute("MilkTeaShop.DAL")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MilkTeaShop.DAL")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

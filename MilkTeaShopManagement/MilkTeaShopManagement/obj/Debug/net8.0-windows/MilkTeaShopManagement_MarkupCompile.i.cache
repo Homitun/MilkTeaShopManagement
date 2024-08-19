@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\ASUS\Desktop\MilkTeaShopManagement\MilkTeaShopManagement\MilkTeaShopManagement\obj\Debug\net8.0-windows\
+C:\Users\ASUS\Desktop\PRN221\MilkTeaShopManagement\MilkTeaShopManagement\MilkTeaShopManagement\obj\Debug\net8.0-windows\
 MilkTeaShopManagement
 none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP
-C:\Users\ASUS\Desktop\MilkTeaShopManagement\MilkTeaShopManagement\MilkTeaShopManagement\App.xaml
-4747355100
+C:\Users\ASUS\Desktop\PRN221\MilkTeaShopManagement\MilkTeaShopManagement\MilkTeaShopManagement\App.xaml
+5-528480174
 
-9-1243960882
-246-1022874651
-AccountManagerWindow.xaml;LoginWindow.xaml;MainWindow.xaml;TableManagerWindow.xaml;
+10-712122940
+2461035523684
+AccountDetailWindow.xaml;AccountManagerWindow.xaml;LoginWindow.xaml;MainWindow.xaml;TableManagerWindow.xaml;
 
 False
 

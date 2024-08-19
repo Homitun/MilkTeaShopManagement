@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ASUS\\Desktop\\MilkTeaShopManagement\\MilkTeaShopManagement\\MilkTeaShopManagement\\MilkTeaShopManagement.csproj": {}
+    "C:\\Users\\ASUS\\Desktop\\PRN221\\MilkTeaShopManagement\\MilkTeaShopManagement\\MilkTeaShopManagement\\MilkTeaShopManagement.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ASUS\\Desktop\\MilkTeaShopManagement\\MilkTeaShopManagement\\MilkTeaShop.BLL\\MilkTeaShop.BLL.csproj": {
+    "C:\\Users\\ASUS\\Desktop\\PRN221\\MilkTeaShopManagement\\MilkTeaShopManagement\\MilkTeaShop.BLL\\MilkTeaShop.BLL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ASUS\\Desktop\\MilkTeaShopManagement\\MilkTeaShopManagement\\MilkTeaShop.BLL\\MilkTeaShop.BLL.csproj",
+        "projectUniqueName": "C:\\Users\\ASUS\\Desktop\\PRN221\\MilkTeaShopManagement\\MilkTeaShopManagement\\MilkTeaShop.BLL\\MilkTeaShop.BLL.csproj",
         "projectName": "MilkTeaShop.BLL",
-        "projectPath": "C:\\Users\\ASUS\\Desktop\\MilkTeaShopManagement\\MilkTeaShopManagement\\MilkTeaShop.BLL\\MilkTeaShop.BLL.csproj",
+        "projectPath": "C:\\Users\\ASUS\\Desktop\\PRN221\\MilkTeaShopManagement\\MilkTeaShopManagement\\MilkTeaShop.BLL\\MilkTeaShop.BLL.csproj",
         "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ASUS\\Desktop\\MilkTeaShopManagement\\MilkTeaShopManagement\\MilkTeaShop.BLL\\obj\\",
+        "outputPath": "C:\\Users\\ASUS\\Desktop\\PRN221\\MilkTeaShopManagement\\MilkTeaShopManagement\\MilkTeaShop.BLL\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -33,8 +33,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\ASUS\\Desktop\\MilkTeaShopManagement\\MilkTeaShopManagement\\MilkTeaShop.DAL\\MilkTeaShop.DAL.csproj": {
-                "projectPath": "C:\\Users\\ASUS\\Desktop\\MilkTeaShopManagement\\MilkTeaShopManagement\\MilkTeaShop.DAL\\MilkTeaShop.DAL.csproj"
+              "C:\\Users\\ASUS\\Desktop\\PRN221\\MilkTeaShopManagement\\MilkTeaShopManagement\\MilkTeaShop.DAL\\MilkTeaShop.DAL.csproj": {
+                "projectPath": "C:\\Users\\ASUS\\Desktop\\PRN221\\MilkTeaShopManagement\\MilkTeaShopManagement\\MilkTeaShop.DAL\\MilkTeaShop.DAL.csproj"
               }
             }
           }
@@ -73,14 +73,14 @@
         }
       }
     },
-    "C:\\Users\\ASUS\\Desktop\\MilkTeaShopManagement\\MilkTeaShopManagement\\MilkTeaShop.DAL\\MilkTeaShop.DAL.csproj": {
+    "C:\\Users\\ASUS\\Desktop\\PRN221\\MilkTeaShopManagement\\MilkTeaShopManagement\\MilkTeaShop.DAL\\MilkTeaShop.DAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ASUS\\Desktop\\MilkTeaShopManagement\\MilkTeaShopManagement\\MilkTeaShop.DAL\\MilkTeaShop.DAL.csproj",
+        "projectUniqueName": "C:\\Users\\ASUS\\Desktop\\PRN221\\MilkTeaShopManagement\\MilkTeaShopManagement\\MilkTeaShop.DAL\\MilkTeaShop.DAL.csproj",
         "projectName": "MilkTeaShop.DAL",
-        "projectPath": "C:\\Users\\ASUS\\Desktop\\MilkTeaShopManagement\\MilkTeaShopManagement\\MilkTeaShop.DAL\\MilkTeaShop.DAL.csproj",
+        "projectPath": "C:\\Users\\ASUS\\Desktop\\PRN221\\MilkTeaShopManagement\\MilkTeaShopManagement\\MilkTeaShop.DAL\\MilkTeaShop.DAL.csproj",
         "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ASUS\\Desktop\\MilkTeaShopManagement\\MilkTeaShopManagement\\MilkTeaShop.DAL\\obj\\",
+        "outputPath": "C:\\Users\\ASUS\\Desktop\\PRN221\\MilkTeaShopManagement\\MilkTeaShopManagement\\MilkTeaShop.DAL\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -168,14 +168,14 @@
         }
       }
     },
-    "C:\\Users\\ASUS\\Desktop\\MilkTeaShopManagement\\MilkTeaShopManagement\\MilkTeaShopManagement\\MilkTeaShopManagement.csproj": {
+    "C:\\Users\\ASUS\\Desktop\\PRN221\\MilkTeaShopManagement\\MilkTeaShopManagement\\MilkTeaShopManagement\\MilkTeaShopManagement.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ASUS\\Desktop\\MilkTeaShopManagement\\MilkTeaShopManagement\\MilkTeaShopManagement\\MilkTeaShopManagement.csproj",
+        "projectUniqueName": "C:\\Users\\ASUS\\Desktop\\PRN221\\MilkTeaShopManagement\\MilkTeaShopManagement\\MilkTeaShopManagement\\MilkTeaShopManagement.csproj",
         "projectName": "MilkTeaShopManagement",
-        "projectPath": "C:\\Users\\ASUS\\Desktop\\MilkTeaShopManagement\\MilkTeaShopManagement\\MilkTeaShopManagement\\MilkTeaShopManagement.csproj",
+        "projectPath": "C:\\Users\\ASUS\\Desktop\\PRN221\\MilkTeaShopManagement\\MilkTeaShopManagement\\MilkTeaShopManagement\\MilkTeaShopManagement.csproj",
         "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ASUS\\Desktop\\MilkTeaShopManagement\\MilkTeaShopManagement\\MilkTeaShopManagement\\obj\\",
+        "outputPath": "C:\\Users\\ASUS\\Desktop\\PRN221\\MilkTeaShopManagement\\MilkTeaShopManagement\\MilkTeaShopManagement\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -197,8 +197,8 @@
           "net8.0-windows7.0": {
             "targetAlias": "net8.0-windows",
             "projectReferences": {
-              "C:\\Users\\ASUS\\Desktop\\MilkTeaShopManagement\\MilkTeaShopManagement\\MilkTeaShop.BLL\\MilkTeaShop.BLL.csproj": {
-                "projectPath": "C:\\Users\\ASUS\\Desktop\\MilkTeaShopManagement\\MilkTeaShopManagement\\MilkTeaShop.BLL\\MilkTeaShop.BLL.csproj"
+              "C:\\Users\\ASUS\\Desktop\\PRN221\\MilkTeaShopManagement\\MilkTeaShopManagement\\MilkTeaShop.BLL\\MilkTeaShop.BLL.csproj": {
+                "projectPath": "C:\\Users\\ASUS\\Desktop\\PRN221\\MilkTeaShopManagement\\MilkTeaShopManagement\\MilkTeaShop.BLL\\MilkTeaShop.BLL.csproj"
               }
             }
           }

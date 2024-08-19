@@ -1,4 +1,5 @@
-﻿using System;
+﻿using MilkTeaShop.BLL.Services;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -19,9 +20,27 @@ namespace MilkTeaShopManagement
     /// </summary>
     public partial class AccountManagerWindow : Window
     {
+        private AcountService _service = new();
         public AccountManagerWindow()
         {
             InitializeComponent();
+        }
+
+        private void Window_Loaded(object sender, RoutedEventArgs e)
+        {
+            FillDataGrid();
+        }
+        private void FillDataGrid()
+        {
+            AccountGrid.ItemsSource = null;
+            AccountGrid.ItemsSource = _service.GetAllAccount();
+        }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            AccountDetai_Window detail = new AccountDetai_Window();
+            detail.ShowDialog();
+            FillDataGrid();
         }
     }
 }
