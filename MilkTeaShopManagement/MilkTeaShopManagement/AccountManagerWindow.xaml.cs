@@ -34,6 +34,7 @@ namespace MilkTeaShopManagement
         {
             AccountGrid.ItemsSource = null;
             AccountGrid.ItemsSource = _service.GetAllAccount();
+            
         }
 
         private void Button_Click(object sender, RoutedEventArgs e)
