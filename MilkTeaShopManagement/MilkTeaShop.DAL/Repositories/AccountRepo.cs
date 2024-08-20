@@ -22,5 +22,17 @@ namespace MilkTeaShop.DAL.Repositories
             _context.Accounts.Add(account);// luu vao ram 
             _context.SaveChanges();// luu thuc su vao database 
         }
+        public void Update(Account account)
+        {
+            _context = new();
+            _context.Accounts.Update(account);
+            _context.SaveChanges();
+        }
+        public void Delete(Account account)
+        {
+            _context = new();
+            _context.Accounts.Remove(account); 
+            _context.SaveChanges();
+        }
     }
 }

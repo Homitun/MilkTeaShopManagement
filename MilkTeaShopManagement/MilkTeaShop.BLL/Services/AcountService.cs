@@ -19,6 +19,14 @@ namespace MilkTeaShop.BLL.Services
         {
             _repo.Add(account);
         }
+        public void UpdateAccount(Account account)
+        {
+            _repo.Update(account);
+        }
+        public void RemoveAccount(Account account)
+        {
+            _repo.Delete(account);
+        }
 
     }
 }

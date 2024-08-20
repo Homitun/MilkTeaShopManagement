@@ -1,4 +1,5 @@
 ﻿using MilkTeaShop.BLL.Services;
+using MilkTeaShop.DAL.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -42,6 +43,41 @@ namespace MilkTeaShopManagement
             AccountDetai_Window detail = new AccountDetai_Window();
             detail.ShowDialog();
             FillDataGrid();
+        }
+
+        private void Button_Click_1(object sender, RoutedEventArgs e)
+        {
+            Account? selected = AccountGrid.SelectedItem as Account;
+            if (selected == null)
+            {
+                MessageBox.Show("Please seclect 1 account before editing","Select an Account", MessageBoxButton.OK, MessageBoxImage.Exclamation);
+                return;
+            }
+            AccountDetai_Window accountDetai_Window = new AccountDetai_Window();
+            accountDetai_Window.EditedAccount = selected;
+            accountDetai_Window.ShowDialog();
+            FillDataGrid();
+        }
+
+        private void Button_Click_2(object sender, RoutedEventArgs e)
+        {
+            Account? selected = AccountGrid.SelectedItem as Account;
+            if (selected == null)
+            {
+                MessageBox.Show("Please seclect 1 account before deleting", "Select an Account", MessageBoxButton.OK, MessageBoxImage.Exclamation);
+                return;
+            }
+            MessageBoxResult confirm = MessageBox.Show("Do you really wanna remove this account ?", "Confirm ?", MessageBoxButton.YesNo, MessageBoxImage.Question);
+            if (confirm == MessageBoxResult.No)
+                return;
+            else
+                _service.RemoveAccount(selected);
+            FillDataGrid();
+        }
+
+        private void Button_Click_3(object sender, RoutedEventArgs e)
+        {
+            this.Close();
         }
     }
 }

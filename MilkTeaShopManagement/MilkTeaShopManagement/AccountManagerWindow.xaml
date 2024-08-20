@@ -19,10 +19,10 @@
             </DataGrid.Columns>
 
         </DataGrid>
-        <Button Content="Update" HorizontalAlignment="Left" Height="34" Margin="502,136,0,0" VerticalAlignment="Top" Width="132"/>
+        <Button Content="Update" HorizontalAlignment="Left" Height="34" Margin="502,136,0,0" VerticalAlignment="Top" Width="132" Click="Button_Click_1"/>
         <Button Content="Create" HorizontalAlignment="Left" Height="34" Margin="502,183,0,0" VerticalAlignment="Top" Width="132" Click="Button_Click"/>
-        <Button Content="Delete" HorizontalAlignment="Left" Height="34" Margin="502,241,0,0" VerticalAlignment="Top" Width="132"/>
-        <Button Content="Quit" HorizontalAlignment="Left" Height="34" Margin="502,293,0,0" VerticalAlignment="Top" Width="132"/>
+        <Button Content="Delete" HorizontalAlignment="Left" Height="34" Margin="502,241,0,0" VerticalAlignment="Top" Width="132" Click="Button_Click_2"/>
+        <Button Content="Quit" HorizontalAlignment="Left" Height="34" Margin="502,293,0,0" VerticalAlignment="Top" Width="132" Click="Button_Click_3"/>
         <Label Content="Account Management" HorizontalAlignment="Left" Height="47" Margin="176,51,0,0" Width="528" VerticalAlignment="Top" FontFamily="Arial Black" FontWeight="Bold" FontSize="22" Foreground="#FFFA0606"/>
 
     </Grid>
