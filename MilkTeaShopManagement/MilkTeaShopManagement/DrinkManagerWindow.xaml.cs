@@ -190,5 +190,11 @@ namespace MilkTeaShopManagement
         {
 
         }
+
+        private void TbPrice_GotFocus(object sender, RoutedEventArgs e)
+        {
+            if (TbPrice.Text == "-")
+                TbPrice.Text = "";
+        }
     }
 }
