@@ -12,9 +12,9 @@
             <ColumnDefinition Width="2*"/>
             <ColumnDefinition Width="23*"/>
         </Grid.ColumnDefinitions>
-        <Button x:Name="btnCreate" Content="Create" HorizontalAlignment="Left" Margin="85,374,0,0" VerticalAlignment="Top" Width="94" Grid.Column="1" Click="btnCreate_Click"/>
-        <Button x:Name="btnDelete" Content="Delete" HorizontalAlignment="Left" Margin="222,374,0,0" VerticalAlignment="Top" Width="94" Grid.Column="1" Click="btnDelete_Click"/>
-        <Button x:Name="btnUpdate" Content="Update" HorizontalAlignment="Left" Margin="10,374,0,0" VerticalAlignment="Top" Width="94" Grid.ColumnSpan="2" Click="btnUpdate_Click"/>
+        <Button x:Name="btnCreate" Content="Create" HorizontalAlignment="Left" Margin="73,286,0,0" VerticalAlignment="Top" Width="94" Grid.Column="1" Click="btnCreate_Click"/>
+        <Button x:Name="btnDelete" Content="Delete" HorizontalAlignment="Left" Margin="184,286,0,0" VerticalAlignment="Top" Width="94" Grid.Column="1" Click="btnDelete_Click"/>
+        <Button x:Name="btnUpdate" Content="Update" HorizontalAlignment="Left" Margin="34,286,0,0" VerticalAlignment="Top" Width="94" Grid.ColumnSpan="2" Click="btnUpdate_Click"/>
 		<Button x:Name="BackButton" Content="Back" HorizontalAlignment="Right" Margin="10,374,0,0" VerticalAlignment="Top" Width="94" Grid.ColumnSpan="2" Click="BackButton_Click"/>
         <DataGrid x:Name="CategoryDataGrid" Margin="326,84,10,40" AutoGenerateColumns="False" Width="400" SelectedCellsChanged="CategoryDataGrid_SelectedCellsChanged" Grid.Column="1">
             <DataGrid.Columns>
@@ -23,6 +23,7 @@
             </DataGrid.Columns>
         </DataGrid>
         <Label Content="ID" HorizontalAlignment="Left" Margin="26,179,0,0" VerticalAlignment="Top" Foreground="Yellow"/>
+        <Label Content="CATEGORY MANAGEMENT" HorizontalAlignment="Left" Margin="1,96,0,0" VerticalAlignment="Top" Foreground="Yellow" RenderTransformOrigin="3.914,-3.646" Grid.Column="1"/>
         <Label Content="Name" HorizontalAlignment="Left" Margin="26,226,0,0" VerticalAlignment="Top" Grid.ColumnSpan="2" Foreground="Yellow"/>
         <Label x:Name="LbID" Content="-" HorizontalAlignment="Left" Margin="16,179,0,0" VerticalAlignment="Top" Grid.Column="1" Foreground="Yellow"/>
         <TextBox x:Name="TbName" HorizontalAlignment="Left" Margin="18,230,0,0" TextWrapping="Wrap" Text="-" VerticalAlignment="Top" Width="260" Height="22" Grid.Column="1" GotFocus="TbName_GotFocus" Foreground="Yellow"/>
