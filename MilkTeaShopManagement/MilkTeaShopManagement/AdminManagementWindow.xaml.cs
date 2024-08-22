@@ -30,6 +30,10 @@ namespace MilkTeaShopManagement
             accountManagerWindow.Show();
         }
 
-       
+        private void Button_Click_3(object sender, RoutedEventArgs e)
+        {
+            CategoryManagerWindow categoryManagerWindow = new CategoryManagerWindow();
+            categoryManagerWindow.Show();
+        }
     }
 }
