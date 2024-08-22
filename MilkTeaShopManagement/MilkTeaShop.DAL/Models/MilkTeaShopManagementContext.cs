@@ -120,7 +120,7 @@ public partial class MilkTeaShopManagementContext : DbContext
                 .HasColumnName("name");
             entity.Property(e => e.Price).HasColumnName("price");
 
-            entity.HasOne(d => d.IdCategoryNavigation).WithMany(p => p.Drinks)
+            entity.HasOne(d => d.DrinkCategory).WithMany(p => p.Drinks)
                 .HasForeignKey(d => d.IdCategory)
                 .OnDelete(DeleteBehavior.ClientSetNull)
                 .HasConstraintName("FK__Drink__price__5441852A");

@@ -15,5 +15,5 @@ public partial class Drink
 
     public virtual ICollection<BillInfo> BillInfos { get; set; } = new List<BillInfo>();
 
-    public virtual DrinkCategory IdCategoryNavigation { get; set; } = null!;
+    public virtual DrinkCategory? DrinkCategory { get; set; } = null!;
 }

@@ -1,0 +1,36 @@
+﻿<Window x:Class="MilkTeaShopManagement.DrinkManagerWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MilkTeaShopManagement"
+        mc:Ignorable="d"
+        Title="DrinkManagerWindow" Height="551" Width="1057" Loaded="Window_Loaded">
+    <Grid x:Name="MainGrid" HorizontalAlignment="Left" Width="814" Margin="-14,0,0,0">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="7*"/>
+            <ColumnDefinition Width="0*"/>
+            <ColumnDefinition Width="67*"/>
+        </Grid.ColumnDefinitions>
+        <Button x:Name="btnCreate" Content="Create" HorizontalAlignment="Left" Margin="165,415,0,0" VerticalAlignment="Top" Width="94" Grid.Column="2" Click="btnCreate_Click" Height="28"/>
+        <Button x:Name="btnDelete" Content="Delete" HorizontalAlignment="Left" Margin="302,415,0,0" VerticalAlignment="Top" Width="94" Grid.Column="2" Click="btnDelete_Click" Height="28"/>
+        <Button x:Name="btnUpdate" Content="Update" HorizontalAlignment="Left" Margin="25,415,0,0" VerticalAlignment="Top" Width="94" Click="btnUpdate_Click" Height="28" Grid.Column="2"/>
+        <DataGrid x:Name="DrinkDataGrid" Margin="441,62,-233,61" AutoGenerateColumns="False" SelectedCellsChanged="DrinkDataGrid_SelectedCellsChanged" Grid.Column="2" SelectionChanged="CategoryDataGrid_SelectionChanged">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Id" Width="50" Binding="{Binding Id}"/>
+                <DataGridTextColumn Header="Name" Width="250" Binding="{Binding Name}"/>
+                <DataGridTextColumn Header="CategoryID" Width="70" Binding="{Binding DrinkCategory.Id}"/>
+                <DataGridTextColumn Header="CategoryName" Width="70" Binding="{Binding DrinkCategory.Name}"/>
+                <DataGridTextColumn Header="Price" Width="50" Binding="{Binding Price}"/>
+            </DataGrid.Columns>
+        </DataGrid>
+        <Label Content="ID" HorizontalAlignment="Left" Margin="25,176,0,0" VerticalAlignment="Top" Height="34" Width="29" Grid.Column="2"/>
+        <Label Content="Name" HorizontalAlignment="Left" Margin="76,212,0,0" VerticalAlignment="Top" RenderTransformOrigin="4.473,-1.045" Width="64" Height="34" Grid.ColumnSpan="3"/>
+        <Label x:Name="LbID2" Content="-" HorizontalAlignment="Left" Margin="73,168,0,0" VerticalAlignment="Top" Grid.Column="2" Height="34" Width="17"/>
+        <TextBox x:Name="TbName2" HorizontalAlignment="Left" Margin="75,219,0,0" TextWrapping="Wrap" Text="-" VerticalAlignment="Top" Width="260" Height="22" Grid.Column="2" GotFocus="TbName_GotFocus"/>
+        <Label Content="Category" HorizontalAlignment="Left" Margin="60,260,0,0" VerticalAlignment="Top" Width="96" Height="34" Grid.ColumnSpan="3"/>
+        <Label Content="Price&#xD;&#xA;" HorizontalAlignment="Left" Margin="3,303,0,0" VerticalAlignment="Top" Width="55" Height="58" Grid.Column="2"/>
+        <TextBox x:Name="TbPrice" Grid.Column="2" HorizontalAlignment="Left" Height="34" Margin="81,307,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="75"/>
+        <ComboBox x:Name="CBCategory" DisplayMemberPath="Name" SelectedValuePath="Id" Grid.Column="2" HorizontalAlignment="Left" Height="26" Margin="90,268,0,0" VerticalAlignment="Top" Width="115"/>
+    </Grid>
+</Window>
