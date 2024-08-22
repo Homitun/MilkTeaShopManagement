@@ -1,0 +1,106 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ASUS\\Desktop\\PRN221\\MilkTeaShopManagement\\MilkTeaShopManagement\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6ADCF7D8-B096-47E4-A99A-5A3B00E1387C}|MilkTeaShopManagement\\MilkTeaShopManagement.csproj|c:\\users\\asus\\desktop\\prn221\\milkteashopmanagement\\milkteashopmanagement\\milkteashopmanagement\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{6ADCF7D8-B096-47E4-A99A-5A3B00E1387C}|MilkTeaShopManagement\\MilkTeaShopManagement.csproj|solutionrelative:milkteashopmanagement\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6ADCF7D8-B096-47E4-A99A-5A3B00E1387C}|MilkTeaShopManagement\\MilkTeaShopManagement.csproj|c:\\users\\asus\\desktop\\prn221\\milkteashopmanagement\\milkteashopmanagement\\milkteashopmanagement\\accountmanagerwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{6ADCF7D8-B096-47E4-A99A-5A3B00E1387C}|MilkTeaShopManagement\\MilkTeaShopManagement.csproj|solutionrelative:milkteashopmanagement\\accountmanagerwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6ADCF7D8-B096-47E4-A99A-5A3B00E1387C}|MilkTeaShopManagement\\MilkTeaShopManagement.csproj|c:\\users\\asus\\desktop\\prn221\\milkteashopmanagement\\milkteashopmanagement\\milkteashopmanagement\\accountdetailwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{6ADCF7D8-B096-47E4-A99A-5A3B00E1387C}|MilkTeaShopManagement\\MilkTeaShopManagement.csproj|solutionrelative:milkteashopmanagement\\accountdetailwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6ADCF7D8-B096-47E4-A99A-5A3B00E1387C}|MilkTeaShopManagement\\MilkTeaShopManagement.csproj|c:\\users\\asus\\desktop\\prn221\\milkteashopmanagement\\milkteashopmanagement\\milkteashopmanagement\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{6ADCF7D8-B096-47E4-A99A-5A3B00E1387C}|MilkTeaShopManagement\\MilkTeaShopManagement.csproj|solutionrelative:milkteashopmanagement\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA7C907E-F3E6-4C4A-8DBC-A6B0ACAD4495}|MilkTeaShop.DAL\\MilkTeaShop.DAL.csproj|c:\\users\\asus\\desktop\\prn221\\milkteashopmanagement\\milkteashopmanagement\\milkteashop.dal\\milkteashop.dal.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{AA7C907E-F3E6-4C4A-8DBC-A6B0ACAD4495}|MilkTeaShop.DAL\\MilkTeaShop.DAL.csproj|solutionrelative:milkteashop.dal\\milkteashop.dal.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\PRN221\\MilkTeaShopManagement\\MilkTeaShopManagement\\MilkTeaShopManagement\\appsettings.json",
+              "RelativeDocumentMoniker": "MilkTeaShopManagement\\appsettings.json",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\PRN221\\MilkTeaShopManagement\\MilkTeaShopManagement\\MilkTeaShopManagement\\appsettings.json",
+              "RelativeToolTip": "MilkTeaShopManagement\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAACRAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-08-22T03:10:22.292Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AccountDetailWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\PRN221\\MilkTeaShopManagement\\MilkTeaShopManagement\\MilkTeaShopManagement\\AccountDetailWindow.xaml",
+              "RelativeDocumentMoniker": "MilkTeaShopManagement\\AccountDetailWindow.xaml",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\PRN221\\MilkTeaShopManagement\\MilkTeaShopManagement\\MilkTeaShopManagement\\AccountDetailWindow.xaml",
+              "RelativeToolTip": "MilkTeaShopManagement\\AccountDetailWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-08-22T03:10:09.267Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\PRN221\\MilkTeaShopManagement\\MilkTeaShopManagement\\MilkTeaShopManagement\\App.xaml",
+              "RelativeDocumentMoniker": "MilkTeaShopManagement\\App.xaml",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\PRN221\\MilkTeaShopManagement\\MilkTeaShopManagement\\MilkTeaShopManagement\\App.xaml",
+              "RelativeToolTip": "MilkTeaShopManagement\\App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-08-22T03:09:11.56Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AccountManagerWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\PRN221\\MilkTeaShopManagement\\MilkTeaShopManagement\\MilkTeaShopManagement\\AccountManagerWindow.xaml",
+              "RelativeDocumentMoniker": "MilkTeaShopManagement\\AccountManagerWindow.xaml",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\PRN221\\MilkTeaShopManagement\\MilkTeaShopManagement\\MilkTeaShopManagement\\AccountManagerWindow.xaml",
+              "RelativeToolTip": "MilkTeaShopManagement\\AccountManagerWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-08-22T03:08:50.371Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MilkTeaShop.DAL",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\PRN221\\MilkTeaShopManagement\\MilkTeaShopManagement\\MilkTeaShop.DAL\\MilkTeaShop.DAL.csproj",
+              "RelativeDocumentMoniker": "MilkTeaShop.DAL\\MilkTeaShop.DAL.csproj",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\PRN221\\MilkTeaShopManagement\\MilkTeaShopManagement\\MilkTeaShop.DAL\\MilkTeaShop.DAL.csproj",
+              "RelativeToolTip": "MilkTeaShop.DAL\\MilkTeaShop.DAL.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-08-22T03:08:02.544Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
