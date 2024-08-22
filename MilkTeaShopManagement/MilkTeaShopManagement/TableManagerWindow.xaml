@@ -5,8 +5,60 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:MilkTeaShopManagement"
         mc:Ignorable="d"
-        Title="TableManagerWindow" Height="450" Width="800">
-    <Grid>
+        Title="TableManagerWindow" Height="740" Width="1300">
+    <Window.Resources>
         
+       
+    </Window.Resources>
+    <Grid HorizontalAlignment="Center" Width="1280" Height="720" VerticalAlignment="Top"  >
+        <StackPanel Margin="0,0,375,670" Orientation="Horizontal" >
+            <Label Content="Tables : " VerticalContentAlignment="Center" FontSize="18" FontWeight="Bold"/>
+            <ScrollViewer HorizontalScrollBarVisibility="Visible" VerticalScrollBarVisibility="Disabled" Width="827" >
+                <WrapPanel x:Name="ListBillActive" Orientation="Horizontal"></WrapPanel>
+            </ScrollViewer>
+        </StackPanel>
+        <StackPanel x:Name="Search" Margin="0,39,375,610" Orientation="Horizontal" >
+            <TextBox x:Name="KeySearch" Height="45" Width="521" Margin="10,5,5,5" >
+            </TextBox>
+            <Button x:Name="SearchBtn" Width="100" Height="45" Margin="10,5,10,5" Content="Search" Click="SearchBtn_Click">
+
+            </Button>
+            <Button x:Name="AddTable" Width="100" Height="45" Margin="10,5,10,5" Content="Add Table" Click="AddTable_Click" >
+
+            </Button>
+        </StackPanel>
+        <StackPanel x:Name="Menu" Margin="0,99,375,0">
+            <StackPanel x:Name="Categories" Height="45" CanHorizontallyScroll="True" Orientation="Horizontal">
+            </StackPanel>
+            <ScrollViewer VerticalScrollBarVisibility="auto" Height="576">
+                <WrapPanel x:Name="Drinks"></WrapPanel>
+            </ScrollViewer>
+        </StackPanel>
+        <StackPanel x:Name="BillDetail" Margin="905,0,5,0">
+            <StackPanel Orientation="Horizontal">
+                <Label Width="180" Content="Table Detail" FontWeight="Bold" FontSize="20"/>
+                <TextBox x:Name="BillDetailName" Width="180" FontWeight="Bold" FontSize="20" VerticalContentAlignment="Center" HorizontalContentAlignment="Right" BorderThickness="0" LostFocus="BillDetailName_LostFocus"/>
+            </StackPanel >
+            <Border Height="0.5" Background="Gray" Margin="0,10"/>
+            <StackPanel>
+                <StackPanel Orientation="Horizontal">
+                    <Label Width="180" Content="Date Check In" FontWeight="Light" FontSize="16"/>
+                    <Label x:Name="DateCheckIn" Width="180"  FontWeight="Light" FontSize="16" HorizontalContentAlignment="Right"/>
+                </StackPanel >
+                
+            </StackPanel>
+            <StackPanel x:Name="BillItems" Height="386" >
+                
+                
+
+            </StackPanel>
+            <Border Height="0.5" Background="Gray" Margin="0,10"/>
+            <StackPanel Orientation="Horizontal" Height="45">
+                <Label Width="180" Content="Total" VerticalAlignment="Center" FontSize="25" HorizontalAlignment="Left" Margin="5,0,0,0" FontWeight="Medium"/>
+                <Label Width="180" x:Name="TotalBill" Content="" FontSize="25"  HorizontalContentAlignment="Right" Margin="0,0,5,0"/>
+            </StackPanel>
+            <Button x:Name="PaymentBill" Content="Pay Now" Margin="15,10,10,15" Height="46" FontSize="24" FontWeight="Bold" Click="PaymentBill_Click"></Button>
+            <Button x:Name="DeletBill" Content="Delete" Margin="15,10,10,15" Height="46" FontSize="24" FontWeight="Bold" Background="Red" Click="DeletBill_Click"></Button>
+        </StackPanel>
     </Grid>
 </Window>
