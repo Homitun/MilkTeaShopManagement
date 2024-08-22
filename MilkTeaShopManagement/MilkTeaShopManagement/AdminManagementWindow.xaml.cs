@@ -23,5 +23,13 @@ namespace MilkTeaShopManagement
         {
             InitializeComponent();
         }
+
+        private void Button_Click_4(object sender, RoutedEventArgs e)
+        {
+           AccountManagerWindow accountManagerWindow = new AccountManagerWindow();
+            accountManagerWindow.Show();
+        }
+
+       
     }
 }

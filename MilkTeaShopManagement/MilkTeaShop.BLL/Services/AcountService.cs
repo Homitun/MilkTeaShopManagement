@@ -11,6 +11,11 @@ namespace MilkTeaShop.BLL.Services
     public class AcountService
     {
         private AccountRepo _repo = new();
+        public Account Authenticate(String username, String password)
+        {
+            return _repo.GetOne(username, password);
+
+        }
         public List<Account> GetAllAccount()
         {
             return _repo.GetAll();

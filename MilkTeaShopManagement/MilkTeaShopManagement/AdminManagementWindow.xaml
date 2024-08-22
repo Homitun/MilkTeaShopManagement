@@ -7,6 +7,11 @@
         mc:Ignorable="d"
         Title="AdminManagementWindow" Height="450" Width="800">
     <Grid>
-        
+        <Button Content="DRINK" HorizontalAlignment="Left" Height="106" Margin="145,145,0,0" VerticalAlignment="Top" Width="132"/>
+        <Button Content="TABLE" HorizontalAlignment="Left" Height="106" Margin="502,145,0,0" VerticalAlignment="Top" Width="132"/>
+        <Button Content="CATEGORY" HorizontalAlignment="Left" Height="110" Margin="145,293,0,0" VerticalAlignment="Top" Width="132"/>
+        <Button Content="ACCOUNT" HorizontalAlignment="Left" Height="110" Margin="502,293,0,0" VerticalAlignment="Top" Width="132" Click="Button_Click_4"/>
+        <Button Content="REPORT" HorizontalAlignment="Center" Height="110" Margin="0,217,0,0" VerticalAlignment="Top" Width="132"/>
+        <Label Content="Admin Management" HorizontalAlignment="Left" Height="47" Margin="262,47,0,0" Width="528" VerticalAlignment="Top" FontFamily="Arial Black" FontWeight="Bold" FontSize="22" Foreground="#FFFA0606"/>
     </Grid>
 </Window>

@@ -10,6 +10,13 @@ namespace MilkTeaShop.DAL.Repositories
     public class AccountRepo
     {
         private MilkTeaShopManagementContext _context;
+
+        public Account? GetOne(string userName, string password)
+        {
+            _context = new();
+            return _context.Accounts.FirstOrDefault(x => x.UserName.ToLower() == userName.ToLower() && x.PassWord == password);
+
+        }
         public List<Account> GetAll()
         {
             _context = new();
