@@ -3,6 +3,7 @@ using MilkTeaShop.BLL.Service;
 using MilkTeaShop.DAL.Models;
 using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -14,6 +15,7 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
+using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace MilkTeaShopManagement
 {
@@ -43,25 +45,42 @@ namespace MilkTeaShopManagement
         {
             DrinkDataGrid.ItemsSource = null;
             DrinkDataGrid.ItemsSource = _service.GetAllDrink();
-            MessageBox.Show(_service.GetAllDrink().ToString());
         }
 
         private void btnCreate_Click(object sender, RoutedEventArgs e)
         {
+            if (TbPrice.Text.IsNullOrEmpty() || TbPrice.Text.Equals("-") )
+            {
+                MessageBox.Show("Price must be valid!.");
+                return;
+            }
+
+            float price = 0f;
+            float.TryParse(TbPrice.Text, out price);
+
+            if (price < 0f)
+            {
+                MessageBox.Show("Price must be valid!.");
+                return;
+            }
+
             if (TbName2.Text.IsNullOrEmpty() || TbName2.Text.Equals("-"))
             {
                 MessageBox.Show("Name field can not be null.");
                 return;
             }
 
-            Drink? existedName = _service.GetAllDrink().FirstOrDefault(c => c.Name == TbName2.Text);
-            if (existedName != null)
+            Drink? existedDrink = _service.GetAllDrink().FirstOrDefault(c => c.Name == TbName2.Text && c.IdCategory == (int)CBCategory.SelectedValue);
+            if (existedDrink != null)
             {
                 MessageBox.Show("This drink already existed.");
                 return;
             }
-            Drink newDrink = new Drink { Name = TbName2.Text };
+
+            Drink newDrink = new Drink { Name = TbName2.Text, IdCategory = (int)CBCategory.SelectedValue, Price = price};
+
             _service.AddDrink(newDrink);
+
             FillDataGrid();
         }
 
@@ -79,6 +98,21 @@ namespace MilkTeaShopManagement
                 return;
             }
 
+            if (TbPrice.Text.IsNullOrEmpty() || TbPrice.Text.Equals("-"))
+            {
+                MessageBox.Show("Price must be valid!.");
+                return;
+            }
+
+            float price = 0f;
+            float.TryParse(TbPrice.Text, out price);
+
+            if (price < 0f)
+            {
+                MessageBox.Show("Price must be valid!.");
+                return;
+            }
+
 #pragma warning disable CS8604 // Possible null reference argument.
             Drink? drink = _service.GetAllDrink().FirstOrDefault(c => c.Id == int.Parse(LbID2.Content.ToString()));
 #pragma warning restore CS8604 // Possible null reference argument.
@@ -89,13 +123,26 @@ namespace MilkTeaShopManagement
                 return;
             }
 
-            if (drink.Name == TbName2.Text)
+            Drink newDrink = new Drink { Name = TbName2.Text, IdCategory = (int)CBCategory.SelectedValue, Price = price };
+
+            if (drink.Compare(newDrink))
             {
-                MessageBox.Show($"Drink's name is not changed.");
+                MessageBox.Show($"The drink is existed.");
+                return;
+            }
+
+            Drink? existedDrink = _service.GetAllDrink().FirstOrDefault(c => c.Name == TbName2.Text && c.IdCategory == (int)CBCategory.SelectedValue);
+
+            if (existedDrink != null)
+            {
+                MessageBox.Show($"The drink is existed.");
                 return;
             }
 
             drink.Name = TbName2.Text;
+            drink.Price = price;
+            drink.IdCategory = (int)CBCategory.SelectedValue;
+
             _service.UpdateDrink(drink);
             FillDataGrid();
         }
@@ -107,6 +154,7 @@ namespace MilkTeaShopManagement
                 _service.DeleteDrink(selectedDrink.Id);
                 LbID2.Content = "-";
                 TbName2.Text = "-";
+                TbPrice.Text = "-";
                 FillDataGrid();
             }
             else
@@ -134,6 +182,11 @@ namespace MilkTeaShopManagement
         }
 
         private void CategoryDataGrid_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+
+        }
+
+        private void TbPrice_TextChanged(object sender, TextChangedEventArgs e)
         {
 
         }

@@ -26,11 +26,11 @@
         </DataGrid>
         <Label Content="ID" HorizontalAlignment="Left" Margin="25,176,0,0" VerticalAlignment="Top" Height="34" Width="29" Grid.Column="2"/>
         <Label Content="Name" HorizontalAlignment="Left" Margin="76,212,0,0" VerticalAlignment="Top" RenderTransformOrigin="4.473,-1.045" Width="64" Height="34" Grid.ColumnSpan="3"/>
-        <Label x:Name="LbID2" Content="-" HorizontalAlignment="Left" Margin="73,168,0,0" VerticalAlignment="Top" Grid.Column="2" Height="34" Width="17"/>
-        <TextBox x:Name="TbName2" HorizontalAlignment="Left" Margin="75,219,0,0" TextWrapping="Wrap" Text="-" VerticalAlignment="Top" Width="260" Height="22" Grid.Column="2" GotFocus="TbName_GotFocus"/>
+        <Label x:Name="LbID2" Content="-" HorizontalAlignment="Left" Margin="96,176,0,0" VerticalAlignment="Top" Grid.Column="2" Height="34" Width="17"/>
+        <TextBox x:Name="TbName2" HorizontalAlignment="Left" Margin="90,218,0,0" TextWrapping="Wrap" Text="-" VerticalAlignment="Top" Width="260" Height="22" Grid.Column="2" GotFocus="TbName_GotFocus"/>
         <Label Content="Category" HorizontalAlignment="Left" Margin="60,260,0,0" VerticalAlignment="Top" Width="96" Height="34" Grid.ColumnSpan="3"/>
         <Label Content="Price&#xD;&#xA;" HorizontalAlignment="Left" Margin="3,303,0,0" VerticalAlignment="Top" Width="55" Height="58" Grid.Column="2"/>
-        <TextBox x:Name="TbPrice" Grid.Column="2" HorizontalAlignment="Left" Height="34" Margin="81,307,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="75"/>
+        <TextBox x:Name="TbPrice" Grid.Column="2" HorizontalAlignment="Left" Height="22" Margin="90,310,0,0" TextWrapping="Wrap" Text="-" VerticalAlignment="Top" Width="100"/>
         <ComboBox x:Name="CBCategory" DisplayMemberPath="Name" SelectedValuePath="Id" Grid.Column="2" HorizontalAlignment="Left" Height="26" Margin="90,268,0,0" VerticalAlignment="Top" Width="115"/>
     </Grid>
 </Window>
