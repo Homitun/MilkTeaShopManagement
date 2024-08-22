@@ -15,18 +15,18 @@ namespace MilkTeaShop.DAL.Repository
         public List<Drink> GetAll()
         {
             _context = new MilkTeaShopManagementContext();
-            return _context.Drinks.Include(x => x.IdCategoryNavigation).ToList();
+            return _context.Drinks.Include(x => x.DrinkCategory).ToList();
         }
         
         public List<Drink> Search(string keyword)
         {
             _context = new MilkTeaShopManagementContext();
-            return _context.Drinks.Include(x => x.IdCategoryNavigation).Where(y => y.Name.Contains(keyword)).ToList();
+            return _context.Drinks.Include(x => x.DrinkCategory).Where(y => y.Name.Contains(keyword)).ToList();
         }
         public List<Drink> SortWithCate(int cateId)
         {
             _context = new MilkTeaShopManagementContext();
-            return _context.Drinks.Where(x => x.IdCategory ==  cateId).Include(y => y.IdCategoryNavigation).ToList();
+            return _context.Drinks.Where(x => x.IdCategory ==  cateId).Include(y => y.DrinkCategory).ToList();
         }
     }
 }

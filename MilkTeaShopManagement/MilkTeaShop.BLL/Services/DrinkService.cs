@@ -10,7 +10,7 @@ namespace MilkTeaShop.BLL.Service
 {
     public class DrinkService
     {
-        private DrinkRepository _repo = new();
+        private DrinkRepository1 _repo = new();
         public List<Drink> GetAllDrink()
         {
             return _repo.GetAll();

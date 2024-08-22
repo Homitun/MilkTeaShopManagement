@@ -55,7 +55,7 @@ namespace MilkTeaShopManagement
                   var tempcategories = drinks.GroupBy(x => x.IdCategory).Select(y => new
                     {
                         y.Key,
-                        Name = y.FirstOrDefault().IdCategoryNavigation.Name
+                        Name = y.FirstOrDefault().DrinkCategory.Name
                     }).ToList();
 
                     categories = tempcategories.Select(x => (x.Key,x.Name)).ToList();

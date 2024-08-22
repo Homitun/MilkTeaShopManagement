@@ -36,7 +36,7 @@ namespace MilkTeaShop.DAL.Repository
 
             return  _context.BillInfos.Where(x => x.IdBill == billId).
                     Include(a => a.IdDrinkNavigation).
-                    ThenInclude(aa => aa.IdCategoryNavigation).
+                    ThenInclude(aa => aa.DrinkCategory).
                     Include(b => b.IdBillNavigation).
                     ThenInclude(c => c.IdTableNavigation).
                     GroupBy(d => d.IdBill).

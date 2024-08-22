@@ -26,6 +26,7 @@ namespace MilkTeaShopManagement
         private TableDrinkService _service = new();
         public TableDrinkManagement()
         {
+            List<TableDrink> tb = _service.GetAllTableDrink();
             InitializeComponent();
         }
 
@@ -36,6 +37,7 @@ namespace MilkTeaShopManagement
 
         private void FillDataGrid()
         {
+            List<TableDrink> tb = _service.GetAllTableDrink();
             TableDrinkDataGrid.ItemsSource = null;
             TableDrinkDataGrid.ItemsSource = _service.GetAllTableDrink();
         }
@@ -147,6 +149,11 @@ namespace MilkTeaShopManagement
         private void BackButton_Click(object sender, RoutedEventArgs e)
         {
             this.Close();
+        }
+
+        private void Window_Loaded_1(object sender, RoutedEventArgs e)
+        {
+
         }
     }
 }

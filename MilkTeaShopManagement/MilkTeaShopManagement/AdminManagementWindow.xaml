@@ -8,7 +8,7 @@
         Title="AdminManagementWindow" Height="450" Width="800"
 		 Background="#ff2800" WindowStartupLocation="CenterScreen" ResizeMode="NoResize">
     <Grid>
-        <Button Content="DRINK" HorizontalAlignment="Left" Height="106" Margin="145,145,0,0" VerticalAlignment="Top" Width="132"/>
+        <Button Content="DRINK" HorizontalAlignment="Left" Height="106" Margin="145,145,0,0" VerticalAlignment="Top" Width="132" Click="Button_Click_1"/>
         <Button Content="TABLE" HorizontalAlignment="Left" Height="106" Margin="502,145,0,0" VerticalAlignment="Top" Width="132" Click="Button_Click_2"/>
         <Button Content="CATEGORY" HorizontalAlignment="Left" Height="110" Margin="145,293,0,0" VerticalAlignment="Top" Width="132" Click="Button_Click_3"/>
         <Button Content="ACCOUNT" HorizontalAlignment="Left" Height="110" Margin="502,293,0,0" VerticalAlignment="Top" Width="132" Click="Button_Click_4"/>

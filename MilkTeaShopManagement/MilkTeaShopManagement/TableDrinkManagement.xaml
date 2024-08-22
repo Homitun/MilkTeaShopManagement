@@ -6,7 +6,7 @@
         xmlns:local="clr-namespace:MilkTeaShopManagement"
         mc:Ignorable="d"
         Title="TableDrinkManagement"  Height="450" Width="800"
-		 Background="#ff2800" WindowStartupLocation="CenterScreen" ResizeMode="NoResize">
+		 Background="#ff2800" WindowStartupLocation="CenterScreen" ResizeMode="NoResize" Loaded="Window_Loaded">
     <Grid x:Name="MainGrid">
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="2*"/>
@@ -20,6 +20,7 @@
             <DataGrid.Columns>
                 <DataGridTextColumn Header="Id" Width="50" Binding="{Binding Id}"/>
                 <DataGridTextColumn Header="Name" Width="340" Binding="{Binding Name}"/>
+                <DataGridTextColumn Header="Status" Width="340" Binding="{Binding Status}"/>
             </DataGrid.Columns>
         </DataGrid>
         <Label Content="ID" HorizontalAlignment="Left" Margin="26,190,0,0" VerticalAlignment="Top" Foreground="Yellow"/>

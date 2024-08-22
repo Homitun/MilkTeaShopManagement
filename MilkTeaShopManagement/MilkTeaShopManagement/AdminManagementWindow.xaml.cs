@@ -46,5 +46,11 @@ namespace MilkTeaShopManagement
             TableDrinkManagement tableDrinkManagement = new TableDrinkManagement();
             tableDrinkManagement.Show();
         }
+
+        private void Button_Click_1(object sender, RoutedEventArgs e)
+        {
+            DrinkManagerWindow drinkManagement = new DrinkManagerWindow();
+            drinkManagement.Show();
+        }
     }
 }
