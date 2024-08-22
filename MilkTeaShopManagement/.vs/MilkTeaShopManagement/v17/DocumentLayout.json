@@ -1,0 +1,141 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Data\\OneDrive - a151620\\Data\\Study\\PRN212\\MilkTeaShopManagement\\MilkTeaShopManagement\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6ADCF7D8-B096-47E4-A99A-5A3B00E1387C}|MilkTeaShopManagement\\MilkTeaShopManagement.csproj|c:\\data\\onedrive - a151620\\data\\study\\prn212\\milkteashopmanagement\\milkteashopmanagement\\milkteashopmanagement\\drinkcategorymanager.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6ADCF7D8-B096-47E4-A99A-5A3B00E1387C}|MilkTeaShopManagement\\MilkTeaShopManagement.csproj|solutionrelative:milkteashopmanagement\\drinkcategorymanager.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D98E63DC-554C-446D-A8DE-9C577AFB037E}|MilkTeaShop.BLL\\MilkTeaShop.BLL.csproj|c:\\data\\onedrive - a151620\\data\\study\\prn212\\milkteashopmanagement\\milkteashopmanagement\\milkteashop.bll\\services\\drinkcategoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D98E63DC-554C-446D-A8DE-9C577AFB037E}|MilkTeaShop.BLL\\MilkTeaShop.BLL.csproj|solutionrelative:milkteashop.bll\\services\\drinkcategoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA7C907E-F3E6-4C4A-8DBC-A6B0ACAD4495}|MilkTeaShop.DAL\\MilkTeaShop.DAL.csproj|c:\\data\\onedrive - a151620\\data\\study\\prn212\\milkteashopmanagement\\milkteashopmanagement\\milkteashop.dal\\models\\milkteashopmanagementcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AA7C907E-F3E6-4C4A-8DBC-A6B0ACAD4495}|MilkTeaShop.DAL\\MilkTeaShop.DAL.csproj|solutionrelative:milkteashop.dal\\models\\milkteashopmanagementcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6ADCF7D8-B096-47E4-A99A-5A3B00E1387C}|MilkTeaShopManagement\\MilkTeaShopManagement.csproj|c:\\data\\onedrive - a151620\\data\\study\\prn212\\milkteashopmanagement\\milkteashopmanagement\\milkteashopmanagement\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{6ADCF7D8-B096-47E4-A99A-5A3B00E1387C}|MilkTeaShopManagement\\MilkTeaShopManagement.csproj|solutionrelative:milkteashopmanagement\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6ADCF7D8-B096-47E4-A99A-5A3B00E1387C}|MilkTeaShopManagement\\MilkTeaShopManagement.csproj|c:\\data\\onedrive - a151620\\data\\study\\prn212\\milkteashopmanagement\\milkteashopmanagement\\milkteashopmanagement\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{6ADCF7D8-B096-47E4-A99A-5A3B00E1387C}|MilkTeaShopManagement\\MilkTeaShopManagement.csproj|solutionrelative:milkteashopmanagement\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6ADCF7D8-B096-47E4-A99A-5A3B00E1387C}|MilkTeaShopManagement\\MilkTeaShopManagement.csproj|c:\\data\\onedrive - a151620\\data\\study\\prn212\\milkteashopmanagement\\milkteashopmanagement\\milkteashopmanagement\\drinkcategorymanager.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{6ADCF7D8-B096-47E4-A99A-5A3B00E1387C}|MilkTeaShopManagement\\MilkTeaShopManagement.csproj|solutionrelative:milkteashopmanagement\\drinkcategorymanager.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA7C907E-F3E6-4C4A-8DBC-A6B0ACAD4495}|MilkTeaShop.DAL\\MilkTeaShop.DAL.csproj|c:\\data\\onedrive - a151620\\data\\study\\prn212\\milkteashopmanagement\\milkteashopmanagement\\milkteashop.dal\\repositories\\accountrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AA7C907E-F3E6-4C4A-8DBC-A6B0ACAD4495}|MilkTeaShop.DAL\\MilkTeaShop.DAL.csproj|solutionrelative:milkteashop.dal\\repositories\\accountrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0174dea2-fdbe-4ef1-8f99-c0beae78880f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MilkTeaShopManagementContext.cs",
+              "DocumentMoniker": "C:\\Data\\OneDrive - a151620\\Data\\Study\\PRN212\\MilkTeaShopManagement\\MilkTeaShopManagement\\MilkTeaShop.DAL\\Models\\MilkTeaShopManagementContext.cs",
+              "RelativeDocumentMoniker": "MilkTeaShop.DAL\\Models\\MilkTeaShopManagementContext.cs",
+              "ToolTip": "C:\\Data\\OneDrive - a151620\\Data\\Study\\PRN212\\MilkTeaShopManagement\\MilkTeaShopManagement\\MilkTeaShop.DAL\\Models\\MilkTeaShopManagementContext.cs",
+              "RelativeToolTip": "MilkTeaShop.DAL\\Models\\MilkTeaShopManagementContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAA6AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-22T13:46:43.533Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Data\\OneDrive - a151620\\Data\\Study\\PRN212\\MilkTeaShopManagement\\MilkTeaShopManagement\\MilkTeaShopManagement\\appsettings.json",
+              "RelativeDocumentMoniker": "MilkTeaShopManagement\\appsettings.json",
+              "ToolTip": "C:\\Data\\OneDrive - a151620\\Data\\Study\\PRN212\\MilkTeaShopManagement\\MilkTeaShopManagement\\MilkTeaShopManagement\\appsettings.json",
+              "RelativeToolTip": "MilkTeaShopManagement\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAA9AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-08-22T13:44:22.321Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DrinkCategoryManager.xaml.cs",
+              "DocumentMoniker": "C:\\Data\\OneDrive - a151620\\Data\\Study\\PRN212\\MilkTeaShopManagement\\MilkTeaShopManagement\\MilkTeaShopManagement\\DrinkCategoryManager.xaml.cs",
+              "RelativeDocumentMoniker": "MilkTeaShopManagement\\DrinkCategoryManager.xaml.cs",
+              "ToolTip": "C:\\Data\\OneDrive - a151620\\Data\\Study\\PRN212\\MilkTeaShopManagement\\MilkTeaShopManagement\\MilkTeaShopManagement\\DrinkCategoryManager.xaml.cs",
+              "RelativeToolTip": "MilkTeaShopManagement\\DrinkCategoryManager.xaml.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAA0wDEAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-22T13:44:03.743Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\Data\\OneDrive - a151620\\Data\\Study\\PRN212\\MilkTeaShopManagement\\MilkTeaShopManagement\\MilkTeaShopManagement\\App.xaml",
+              "RelativeDocumentMoniker": "MilkTeaShopManagement\\App.xaml",
+              "ToolTip": "C:\\Data\\OneDrive - a151620\\Data\\Study\\PRN212\\MilkTeaShopManagement\\MilkTeaShopManagement\\MilkTeaShopManagement\\App.xaml",
+              "RelativeToolTip": "MilkTeaShopManagement\\App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-08-22T13:43:41.179Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DrinkCategoryManager.xaml",
+              "DocumentMoniker": "C:\\Data\\OneDrive - a151620\\Data\\Study\\PRN212\\MilkTeaShopManagement\\MilkTeaShopManagement\\MilkTeaShopManagement\\DrinkCategoryManager.xaml",
+              "RelativeDocumentMoniker": "MilkTeaShopManagement\\DrinkCategoryManager.xaml",
+              "ToolTip": "C:\\Data\\OneDrive - a151620\\Data\\Study\\PRN212\\MilkTeaShopManagement\\MilkTeaShopManagement\\MilkTeaShopManagement\\DrinkCategoryManager.xaml",
+              "RelativeToolTip": "MilkTeaShopManagement\\DrinkCategoryManager.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-08-22T13:43:05.45Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DrinkCategoryService.cs",
+              "DocumentMoniker": "C:\\Data\\OneDrive - a151620\\Data\\Study\\PRN212\\MilkTeaShopManagement\\MilkTeaShopManagement\\MilkTeaShop.BLL\\Services\\DrinkCategoryService.cs",
+              "RelativeDocumentMoniker": "MilkTeaShop.BLL\\Services\\DrinkCategoryService.cs",
+              "ToolTip": "C:\\Data\\OneDrive - a151620\\Data\\Study\\PRN212\\MilkTeaShopManagement\\MilkTeaShopManagement\\MilkTeaShop.BLL\\Services\\DrinkCategoryService.cs",
+              "RelativeToolTip": "MilkTeaShop.BLL\\Services\\DrinkCategoryService.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAACQAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-22T13:42:26.372Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AccountRepo.cs",
+              "DocumentMoniker": "C:\\Data\\OneDrive - a151620\\Data\\Study\\PRN212\\MilkTeaShopManagement\\MilkTeaShopManagement\\MilkTeaShop.DAL\\Repositories\\AccountRepo.cs",
+              "RelativeDocumentMoniker": "MilkTeaShop.DAL\\Repositories\\AccountRepo.cs",
+              "ToolTip": "C:\\Data\\OneDrive - a151620\\Data\\Study\\PRN212\\MilkTeaShopManagement\\MilkTeaShopManagement\\MilkTeaShop.DAL\\Repositories\\AccountRepo.cs",
+              "RelativeToolTip": "MilkTeaShop.DAL\\Repositories\\AccountRepo.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-22T13:42:02.701Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
