@@ -35,10 +35,11 @@ namespace MilkTeaShopManagement
             CategoryManagerWindow categoryManagerWindow = new CategoryManagerWindow();
             categoryManagerWindow.Show();
         }
-        //private void Button_Click_2(object sender, RoutedEventArgs e)
-        //{
-        //   TableManagerWindow tableManagerWindow = new TableManagerWindow();
-        //    tableManagerWindow.Show();
-        //}
+        private void Button_Click_5(object sender, RoutedEventArgs e)
+        {
+            ReportWindow reportWindow = new ReportWindow();
+            reportWindow.Show();
+        }
+
     }
 }
