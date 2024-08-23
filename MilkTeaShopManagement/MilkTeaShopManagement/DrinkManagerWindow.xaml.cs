@@ -151,7 +151,13 @@ namespace MilkTeaShopManagement
         {
             if (DrinkDataGrid.SelectedItem is Drink selectedDrink)
             {
-                _service.DeleteDrink(selectedDrink.Id);
+                try
+                {
+                    _service.DeleteDrink(selectedDrink.Id);
+                } catch (Exception ex)
+                {
+                    MessageBox.Show("There are bill buyed this drink!");
+                }
                 LbID2.Content = "-";
                 TbName2.Text = "-";
                 TbPrice.Text = "-";
@@ -159,7 +165,7 @@ namespace MilkTeaShopManagement
             }
             else
             {
-                MessageBox.Show("Please select a category to delete.");
+                MessageBox.Show("Please select a drink to delete.");
             }
         }
 

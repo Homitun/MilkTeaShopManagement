@@ -1,0 +1,16 @@
+C:\Data\OneDrive - a151620\Data\Study\PRN212\MilkTeaShopManagement\MilkTeaShopManagement\MilkTeaShop.BLL\bin\Debug\net8.0\MilkTeaShop.BLL.deps.json
+C:\Data\OneDrive - a151620\Data\Study\PRN212\MilkTeaShopManagement\MilkTeaShopManagement\MilkTeaShop.BLL\bin\Debug\net8.0\MilkTeaShop.BLL.dll
+C:\Data\OneDrive - a151620\Data\Study\PRN212\MilkTeaShopManagement\MilkTeaShopManagement\MilkTeaShop.BLL\bin\Debug\net8.0\MilkTeaShop.BLL.pdb
+C:\Data\OneDrive - a151620\Data\Study\PRN212\MilkTeaShopManagement\MilkTeaShopManagement\MilkTeaShop.BLL\bin\Debug\net8.0\MilkTeaShop.DAL.dll
+C:\Data\OneDrive - a151620\Data\Study\PRN212\MilkTeaShopManagement\MilkTeaShopManagement\MilkTeaShop.BLL\bin\Debug\net8.0\MilkTeaShop.DAL.pdb
+C:\Data\OneDrive - a151620\Data\Study\PRN212\MilkTeaShopManagement\MilkTeaShopManagement\MilkTeaShop.BLL\obj\Debug\net8.0\MilkTeaShop.BLL.csproj.AssemblyReference.cache
+C:\Data\OneDrive - a151620\Data\Study\PRN212\MilkTeaShopManagement\MilkTeaShopManagement\MilkTeaShop.BLL\obj\Debug\net8.0\MilkTeaShop.BLL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Data\OneDrive - a151620\Data\Study\PRN212\MilkTeaShopManagement\MilkTeaShopManagement\MilkTeaShop.BLL\obj\Debug\net8.0\MilkTeaShop.BLL.AssemblyInfoInputs.cache
+C:\Data\OneDrive - a151620\Data\Study\PRN212\MilkTeaShopManagement\MilkTeaShopManagement\MilkTeaShop.BLL\obj\Debug\net8.0\MilkTeaShop.BLL.AssemblyInfo.cs
+C:\Data\OneDrive - a151620\Data\Study\PRN212\MilkTeaShopManagement\MilkTeaShopManagement\MilkTeaShop.BLL\obj\Debug\net8.0\MilkTeaShop.BLL.csproj.CoreCompileInputs.cache
+C:\Data\OneDrive - a151620\Data\Study\PRN212\MilkTeaShopManagement\MilkTeaShopManagement\MilkTeaShop.BLL\obj\Debug\net8.0\MilkTeaShop.BLL.sourcelink.json
+C:\Data\OneDrive - a151620\Data\Study\PRN212\MilkTeaShopManagement\MilkTeaShopManagement\MilkTeaShop.BLL\obj\Debug\net8.0\MilkTeaS.08434592.Up2Date
+C:\Data\OneDrive - a151620\Data\Study\PRN212\MilkTeaShopManagement\MilkTeaShopManagement\MilkTeaShop.BLL\obj\Debug\net8.0\MilkTeaShop.BLL.dll
+C:\Data\OneDrive - a151620\Data\Study\PRN212\MilkTeaShopManagement\MilkTeaShopManagement\MilkTeaShop.BLL\obj\Debug\net8.0\refint\MilkTeaShop.BLL.dll
+C:\Data\OneDrive - a151620\Data\Study\PRN212\MilkTeaShopManagement\MilkTeaShopManagement\MilkTeaShop.BLL\obj\Debug\net8.0\MilkTeaShop.BLL.pdb
+C:\Data\OneDrive - a151620\Data\Study\PRN212\MilkTeaShopManagement\MilkTeaShopManagement\MilkTeaShop.BLL\obj\Debug\net8.0\ref\MilkTeaShop.BLL.dll

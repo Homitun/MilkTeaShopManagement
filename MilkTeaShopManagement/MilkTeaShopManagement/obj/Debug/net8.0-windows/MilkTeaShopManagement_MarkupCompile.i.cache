@@ -4,16 +4,16 @@
 winexe
 C#
 .cs
-D:\FPTSubject\PRN212\MilkTeaShopManagement\MilkTeaShopManagement\MilkTeaShopManagement\obj\Debug\net8.0-windows\
+C:\Data\OneDrive - a151620\Data\Study\PRN212\MilkTeaShopManagement\MilkTeaShopManagement\MilkTeaShopManagement\obj\Debug\net8.0-windows\
 MilkTeaShopManagement
 none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP
-D:\FPTSubject\PRN212\MilkTeaShopManagement\MilkTeaShopManagement\MilkTeaShopManagement\App.xaml
+C:\Data\OneDrive - a151620\Data\Study\PRN212\MilkTeaShopManagement\MilkTeaShopManagement\MilkTeaShopManagement\App.xaml
 121786219986
 
 17434456376
-246-15897583
+246-35304593
 AccountDetailWindow.xaml;AccountManagerWindow.xaml;AdminManagementWindow.xaml;CategoryManagerWindow.xaml;DrinkManagerWindow.xaml;ListBill.xaml;ListBillDetails.xaml;LoginWindow.xaml;MainWindow.xaml;ReportWindow.xaml;TableDrinkManagement.xaml;TableManagerWindow.xaml;
 
 True

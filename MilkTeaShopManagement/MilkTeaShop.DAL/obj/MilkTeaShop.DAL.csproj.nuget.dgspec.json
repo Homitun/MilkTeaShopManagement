@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\FPTSubject\\PRN212\\MilkTeaShopManagement\\MilkTeaShopManagement\\MilkTeaShop.DAL\\MilkTeaShop.DAL.csproj": {}
+    "C:\\Data\\OneDrive - a151620\\Data\\Study\\PRN212\\MilkTeaShopManagement\\MilkTeaShopManagement\\MilkTeaShop.DAL\\MilkTeaShop.DAL.csproj": {}
   },
   "projects": {
-    "D:\\FPTSubject\\PRN212\\MilkTeaShopManagement\\MilkTeaShopManagement\\MilkTeaShop.DAL\\MilkTeaShop.DAL.csproj": {
+    "C:\\Data\\OneDrive - a151620\\Data\\Study\\PRN212\\MilkTeaShopManagement\\MilkTeaShopManagement\\MilkTeaShop.DAL\\MilkTeaShop.DAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\FPTSubject\\PRN212\\MilkTeaShopManagement\\MilkTeaShopManagement\\MilkTeaShop.DAL\\MilkTeaShop.DAL.csproj",
+        "projectUniqueName": "C:\\Data\\OneDrive - a151620\\Data\\Study\\PRN212\\MilkTeaShopManagement\\MilkTeaShopManagement\\MilkTeaShop.DAL\\MilkTeaShop.DAL.csproj",
         "projectName": "MilkTeaShop.DAL",
-        "projectPath": "D:\\FPTSubject\\PRN212\\MilkTeaShopManagement\\MilkTeaShopManagement\\MilkTeaShop.DAL\\MilkTeaShop.DAL.csproj",
-        "packagesPath": "C:\\Users\\Henry Hoang\\.nuget\\packages\\",
-        "outputPath": "D:\\FPTSubject\\PRN212\\MilkTeaShopManagement\\MilkTeaShopManagement\\MilkTeaShop.DAL\\obj\\",
+        "projectPath": "C:\\Data\\OneDrive - a151620\\Data\\Study\\PRN212\\MilkTeaShopManagement\\MilkTeaShopManagement\\MilkTeaShop.DAL\\MilkTeaShop.DAL.csproj",
+        "packagesPath": "C:\\Users\\mical\\.nuget\\packages\\",
+        "outputPath": "C:\\Data\\OneDrive - a151620\\Data\\Study\\PRN212\\MilkTeaShopManagement\\MilkTeaShopManagement\\MilkTeaShop.DAL\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Henry Hoang\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\mical\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -39,6 +39,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -90,7 +95,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.304/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

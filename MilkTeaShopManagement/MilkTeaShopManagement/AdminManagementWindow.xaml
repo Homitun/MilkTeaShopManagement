@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:MilkTeaShopManagement"
         mc:Ignorable="d"
-        Title="AdminManagementWindow" Height="450" Width="800"
+        Title="AdminManagementWindow" Height="490" Width="801"
 		 Background="#ff2800" WindowStartupLocation="CenterScreen" ResizeMode="NoResize">
     <Grid>
         <Button Content="DRINK" HorizontalAlignment="Left" Height="106" Margin="145,145,0,0" VerticalAlignment="Top" Width="132" Click="Button_Click_1"/>
@@ -14,5 +14,7 @@
         <Button Content="ACCOUNT" HorizontalAlignment="Left" Height="110" Margin="502,293,0,0" VerticalAlignment="Top" Width="132" Click="Button_Click_4"/>
         <Button Content="REPORT" HorizontalAlignment="Center" Height="110" Margin="0,217,0,0" VerticalAlignment="Top" Width="132"  Click="Button_Click_5"/>
         <Label Content="Admin Management" HorizontalAlignment="Left" Height="47" Margin="262,47,0,0" Width="528" VerticalAlignment="Top" FontFamily="Arial Black" FontWeight="Bold" FontSize="22" Foreground="yellow"/>
+        <Button x:Name="BackButton" Content="Logout" HorizontalAlignment="Right" Margin="0,396,22,0" VerticalAlignment="Top" Width="94" Click="LogoutButton_Click" Grid.Column="1"/>
+
     </Grid>
 </Window>

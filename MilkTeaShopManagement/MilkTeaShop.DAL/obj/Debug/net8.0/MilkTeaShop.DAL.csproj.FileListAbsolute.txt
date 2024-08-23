@@ -1,0 +1,15 @@
+C:\Data\OneDrive - a151620\Data\Study\PRN212\MilkTeaShopManagement\MilkTeaShopManagement\MilkTeaShop.DAL\bin\Debug\net8.0\MilkTeaShop.DAL.deps.json
+C:\Data\OneDrive - a151620\Data\Study\PRN212\MilkTeaShopManagement\MilkTeaShopManagement\MilkTeaShop.DAL\bin\Debug\net8.0\MilkTeaShop.DAL.runtimeconfig.json
+C:\Data\OneDrive - a151620\Data\Study\PRN212\MilkTeaShopManagement\MilkTeaShopManagement\MilkTeaShop.DAL\bin\Debug\net8.0\MilkTeaShop.DAL.dll
+C:\Data\OneDrive - a151620\Data\Study\PRN212\MilkTeaShopManagement\MilkTeaShopManagement\MilkTeaShop.DAL\bin\Debug\net8.0\MilkTeaShop.DAL.pdb
+C:\Data\OneDrive - a151620\Data\Study\PRN212\MilkTeaShopManagement\MilkTeaShopManagement\MilkTeaShop.DAL\obj\Debug\net8.0\MilkTeaShop.DAL.csproj.AssemblyReference.cache
+C:\Data\OneDrive - a151620\Data\Study\PRN212\MilkTeaShopManagement\MilkTeaShopManagement\MilkTeaShop.DAL\obj\Debug\net8.0\MilkTeaShop.DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Data\OneDrive - a151620\Data\Study\PRN212\MilkTeaShopManagement\MilkTeaShopManagement\MilkTeaShop.DAL\obj\Debug\net8.0\MilkTeaShop.DAL.AssemblyInfoInputs.cache
+C:\Data\OneDrive - a151620\Data\Study\PRN212\MilkTeaShopManagement\MilkTeaShopManagement\MilkTeaShop.DAL\obj\Debug\net8.0\MilkTeaShop.DAL.AssemblyInfo.cs
+C:\Data\OneDrive - a151620\Data\Study\PRN212\MilkTeaShopManagement\MilkTeaShopManagement\MilkTeaShop.DAL\obj\Debug\net8.0\MilkTeaShop.DAL.csproj.CoreCompileInputs.cache
+C:\Data\OneDrive - a151620\Data\Study\PRN212\MilkTeaShopManagement\MilkTeaShopManagement\MilkTeaShop.DAL\obj\Debug\net8.0\MilkTeaShop.DAL.sourcelink.json
+C:\Data\OneDrive - a151620\Data\Study\PRN212\MilkTeaShopManagement\MilkTeaShopManagement\MilkTeaShop.DAL\obj\Debug\net8.0\MilkTeaShop.DAL.dll
+C:\Data\OneDrive - a151620\Data\Study\PRN212\MilkTeaShopManagement\MilkTeaShopManagement\MilkTeaShop.DAL\obj\Debug\net8.0\refint\MilkTeaShop.DAL.dll
+C:\Data\OneDrive - a151620\Data\Study\PRN212\MilkTeaShopManagement\MilkTeaShopManagement\MilkTeaShop.DAL\obj\Debug\net8.0\MilkTeaShop.DAL.pdb
+C:\Data\OneDrive - a151620\Data\Study\PRN212\MilkTeaShopManagement\MilkTeaShopManagement\MilkTeaShop.DAL\obj\Debug\net8.0\MilkTeaShop.DAL.genruntimeconfig.cache
+C:\Data\OneDrive - a151620\Data\Study\PRN212\MilkTeaShopManagement\MilkTeaShopManagement\MilkTeaShop.DAL\obj\Debug\net8.0\ref\MilkTeaShop.DAL.dll

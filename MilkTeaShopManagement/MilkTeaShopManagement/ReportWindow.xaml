@@ -9,18 +9,17 @@
         Background="#ff2800" WindowStartupLocation="CenterScreen" ResizeMode="NoResize">
     <Grid>
         <!-- Header Labels -->
-        <Label Content="Milk Tea Shop Management" HorizontalAlignment="Left" Height="80" Margin="20,20,0,0" VerticalAlignment="Top" Width="580" FontWeight="Heavy" FontSize="50" FontStyle="Italic" Foreground="Yellow"/>
-        <Label Content="ver. 1.0" HorizontalAlignment="Left" Height="50" Margin="600,40,0,0" VerticalAlignment="Top" Width="200" FontSize="30" Foreground="Yellow" FontStyle="Italic"/>
+        <Label Content="Milk Tea Shop Management" HorizontalAlignment="Left" Height="80" Margin="20,20,0,0" VerticalAlignment="Top" Width="709" FontWeight="Heavy" FontSize="50" FontStyle="Italic" Foreground="Yellow"/>
         <Label x:Name="HelloMsgLabel" Content="Hello, Administrator" HorizontalAlignment="Left" Height="50" Margin="810,6,0,0" VerticalAlignment="Top" Width="350" FontSize="25" FontStyle="Italic" Foreground="Yellow" HorizontalContentAlignment="Right"/>
 
         <!-- Date Pickers and Search Button -->
-        <Label Content="From Date:" HorizontalAlignment="Left" Height="30" Margin="30,120,0,0" VerticalAlignment="Top" Width="80" Foreground="White"/>
-        <DatePicker x:Name="StartDatePicker" HorizontalAlignment="Left" Height="30" Margin="120,120,0,0" VerticalAlignment="Top" Width="150"/>
+        <Label Content="From Date:" HorizontalAlignment="Left" Height="30" Margin="30,120,0,0" VerticalAlignment="Top" Width="113" Foreground="White"/>
+        <DatePicker x:Name="StartDatePicker" HorizontalAlignment="Left" Height="30" Margin="174,120,0,0" VerticalAlignment="Top" Width="150"/>
 
-        <Label Content="To Date:" HorizontalAlignment="Left" Height="30" Margin="300,120,0,0" VerticalAlignment="Top" Width="60" Foreground="White"/>
-        <DatePicker x:Name="EndDatePicker" HorizontalAlignment="Left" Height="30" Margin="370,120,0,0" VerticalAlignment="Top" Width="150"/>
+        <Label Content="To Date:" HorizontalAlignment="Left" Height="30" Margin="407,118,0,0" VerticalAlignment="Top" Width="90" Foreground="White"/>
+        <DatePicker x:Name="EndDatePicker" HorizontalAlignment="Left" Height="30" Margin="502,120,0,0" VerticalAlignment="Top" Width="150"/>
 
-        <Button x:Name="SearchButton" Content="Search" HorizontalAlignment="Left" Height="40" Margin="550,115,0,0" VerticalAlignment="Top" Width="100" Click="SearchButton_Click" Background="#ff4500" Foreground="White"/>
+        <Button x:Name="SearchButton" Content="Search" HorizontalAlignment="Left" Height="40" Margin="690,115,0,0" VerticalAlignment="Top" Width="100" Click="SearchButton_Click" Background="#ff4500" Foreground="White"/>
 
         <!-- DataGrid for displaying results -->
         <DataGrid x:Name="ResultsDataGrid" HorizontalAlignment="Left" Height="400" Margin="20,170,0,0" VerticalAlignment="Top" Width="1150" AutoGenerateColumns="False" 
@@ -42,9 +41,8 @@
         </DataGrid>
 
         <!-- Back Button -->
-        <Button x:Name="BackButton" Content="Back" HorizontalAlignment="Left" Height="50" Margin="20,580,0,0" VerticalAlignment="Top" Width="100" Click="BackButton_Click" Background="#ff4500" Foreground="White"/>
+        <Button x:Name="BackButton" Content="Back" HorizontalAlignment="Left" Height="50" Margin="985,592,0,0" VerticalAlignment="Top" Width="100" Click="BackButton_Click" Background="#ff4500" Foreground="White"/>
 
         <!-- Footer Label -->
-        <Label Content="© 2024 Milk Tea Shop" HorizontalAlignment="Left" Height="45" Margin="20,620,0,0" VerticalAlignment="Top" Width="200" Foreground="White"/>
     </Grid>
 </Window>

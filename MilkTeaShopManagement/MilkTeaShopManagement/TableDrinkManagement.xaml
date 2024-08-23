@@ -15,7 +15,7 @@
         <Button x:Name="btnCreate" Content="Create" HorizontalAlignment="Left" Margin="84,300,0,0" VerticalAlignment="Top" Width="94" Grid.Column="1" Click="btnCreate_Click"/>
         <Button x:Name="btnDelete" Content="Delete" HorizontalAlignment="Left" Margin="202,300,0,0" VerticalAlignment="Top" Width="94" Grid.Column="1" Click="btnDelete_Click"/>
         <Button x:Name="btnUpdate" Content="Update" HorizontalAlignment="Left" Margin="26,300,0,0" VerticalAlignment="Top" Width="94" Grid.ColumnSpan="2" Click="btnUpdate_Click"/>
-        <Button x:Name="BackButton" Content="Back" HorizontalAlignment="Right" Margin="0,381,10,0" VerticalAlignment="Top" Width="94" Click="BackButton_Click" Grid.Column="1"/>
+        <Button x:Name="BackButton" Content="Back" HorizontalAlignment="Right" Margin="0,396,22,0" VerticalAlignment="Top" Width="94" Click="BackButton_Click" Grid.Column="1"/>
         <DataGrid x:Name="TableDrinkDataGrid" Margin="326,84,10,40" AutoGenerateColumns="False" Width="400" SelectedCellsChanged="TableDrinkDataGrid_SelectedCellsChanged" Grid.Column="1">
             <DataGrid.Columns>
                 <DataGridTextColumn Header="Id" Width="50" Binding="{Binding Id}"/>

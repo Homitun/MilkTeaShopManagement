@@ -5,10 +5,10 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:MilkTeaShopManagement"
         mc:Ignorable="d"
-        Title="TableManagerWindow" Height="740" Width="1300">
+        Title="TableManagerWindow" Height="740" Width="1300" WindowStartupLocation="CenterScreen">
     <Window.Resources>
-        
-       
+
+
     </Window.Resources>
     <Grid HorizontalAlignment="Center" Width="1280" Height="720" VerticalAlignment="Top"  >
         <StackPanel Margin="0,0,375,670" Orientation="Horizontal" >
@@ -45,11 +45,11 @@
                     <Label Width="180" Content="Date Check In" FontWeight="Light" FontSize="16"/>
                     <Label x:Name="DateCheckIn" Width="180"  FontWeight="Light" FontSize="16" HorizontalContentAlignment="Right"/>
                 </StackPanel >
-                
+
             </StackPanel>
             <StackPanel x:Name="BillItems" Height="386" >
-                
-                
+
+
 
             </StackPanel>
             <Border Height="0.5" Background="Gray" Margin="0,10"/>
@@ -60,5 +60,6 @@
             <Button x:Name="PaymentBill" Content="Pay Now" Margin="15,10,10,15" Height="46" FontSize="24" FontWeight="Bold" Click="PaymentBill_Click"></Button>
             <Button x:Name="DeletBill" Content="Delete" Margin="15,10,10,15" Height="46" FontSize="24" FontWeight="Bold" Background="Red" Click="DeletBill_Click"></Button>
         </StackPanel>
+        <Button x:Name="BackButton" Content="Logout" HorizontalAlignment="Right" Margin="0,682,143,0" VerticalAlignment="Top" Width="94" Click="LogoutButton_Click"/>
     </Grid>
 </Window>

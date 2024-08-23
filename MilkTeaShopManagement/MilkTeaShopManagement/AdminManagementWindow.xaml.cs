@@ -52,5 +52,12 @@ namespace MilkTeaShopManagement
             DrinkManagerWindow drinkManagement = new DrinkManagerWindow();
             drinkManagement.Show();
         }
+
+        private void LogoutButton_Click(object sender, RoutedEventArgs e)
+        {
+            LoginWindow loginWindow = new LoginWindow();
+            loginWindow.Show();
+            this.Close();
+        }
     }
 }
