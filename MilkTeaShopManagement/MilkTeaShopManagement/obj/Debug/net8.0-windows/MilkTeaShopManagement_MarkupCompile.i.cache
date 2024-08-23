@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP
 D:\FPTSubject\PRN212\MilkTeaShopManagement\MilkTeaShopManagement\MilkTeaShopManagement\App.xaml
-3586917315
+121786219986
 
-8-2126872878
+17434456376
 246-15897583
-LoginWindow.xaml;MainWindow.xaml;TableManagerWindow.xaml;
+AccountDetailWindow.xaml;AccountManagerWindow.xaml;AdminManagementWindow.xaml;CategoryManagerWindow.xaml;DrinkManagerWindow.xaml;ListBill.xaml;ListBillDetails.xaml;LoginWindow.xaml;MainWindow.xaml;ReportWindow.xaml;TableDrinkManagement.xaml;TableManagerWindow.xaml;
 
 True
 
